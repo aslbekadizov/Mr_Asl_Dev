@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'p-r';
+    src: url("./PermanentMarker-Regular.ttf");
+}
+@font-face {
+    font-family: 'r-b';
+    src: url("./Rajdhani-Bold.ttf");
+}
+@font-face {
+    font-family: 'r-m';
+    src: url("./Rajdhani-Medium.ttf");
+}
+@font-face {
+    font-family: 'r-r';
+    src: url("./Rajdhani-Regular.ttf");
+}
