@@ -41,7 +41,7 @@ body{
     overflow-x: hidden;
     header{
         .menu_burger{
-            transition: 2000ms;
+            transition: 500ms;
             position: fixed;
             right: -378px;
             .fa-xmark{
@@ -316,11 +316,11 @@ body{
                 }
             }
         }
-        @media (max-width: 500px) {
-            height: 270px;
-        }
         @media (max-width: 900px) {
             background: #10141c;
+        }
+        @media (max-width: 500px) {
+            height: 270px;
         }
     }
     section{
@@ -345,7 +345,7 @@ body{
                 }
                 @media (max-width: 500px) {
                     font-size: 67px;
-                }
+                }   
                 @media (max-width: 490px) {
                     font-size: 49px;
                 }
@@ -362,7 +362,7 @@ body{
         .section_medium{
             .technologies:nth-child(4){
                 .elem:nth-child(2){
-                    img{
+                    img{                            
                         margin: 0 auto 20px auto;
                         width: 70px;
                     }
@@ -454,7 +454,6 @@ body{
                 0% {
                 transform: translateY(0);
                 }
-            
                 100% {
                 transform: translateY(-20px);
                 }

@@ -48,7 +48,7 @@ body {
   overflow-x: hidden;
 }
 body header .menu_burger {
-  transition: 2000ms;
+  transition: 500ms;
   position: fixed;
   right: -378px;
 }
@@ -370,14 +370,14 @@ body header .header_bottom .bottom_nav span a:hover {
     display: none;
   }
 }
-@media (max-width: 500px) {
-  body header {
-    height: 270px;
-  }
-}
 @media (max-width: 900px) {
   body header {
     background: #10141c;
+  }
+}
+@media (max-width: 500px) {
+  body header {
+    height: 270px;
   }
 }
 body section {
