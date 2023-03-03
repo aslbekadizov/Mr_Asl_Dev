@@ -505,7 +505,7 @@ body section .section_medium .technologies .elem img {
 @media (max-width: 480px) {
   body section .section_medium .technologies .elem img {
     width: 75px;
-    height: 87px;
+    height: 75px;
   }
 }
 @media (max-width: 850px) {
